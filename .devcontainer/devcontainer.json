@@ -1,0 +1,8 @@
+{
+  "name": "Dev Container Definition - FizzBuzzPython",
+  "image": "ghcr.io/yuukiyo/fizzbuzzpythonworkspace:latest",
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
+  "extensions": ["dbaeumer.vscode-eslint"]
+}
